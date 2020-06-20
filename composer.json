@@ -1,0 +1,24 @@
+{
+	"name": "jasoonwitt/custom-reports",
+	"description": "Customized CSV reports",
+	"version": "1.0.0",
+	"license": "GPL-2.0",
+	"authors": [
+		{
+			"name": "jasonwitt"
+		}
+	],
+	"config": {
+		"optimize-autoloader": true,
+		"classmap-authoritative": true
+	},
+	"autoload": {
+		"psr-4": {
+			"CustomReports\\": "includes/classes"
+		},
+		"classmap": [
+			"includes/classes"
+		],
+		"files": []
+	}
+}

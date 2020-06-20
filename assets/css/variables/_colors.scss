@@ -1,0 +1,36 @@
+@charset "UTF-8";
+// ========================================
+// Colors
+// ========================================
+
+// Grayscale
+$black: hsl(0, 0%, 0%);
+$gray5: hsl(0, 0%, 5%);
+$gray10: hsl(0, 0%, 10%);
+$gray15: hsl(0, 0%, 15%);
+$gray20: hsl(0, 0%, 20%);
+$gray25: hsl(0, 0%, 25%);
+$gray30: hsl(0, 0%, 30%);
+$gray35: hsl(0, 0%, 35%);
+$gray40: hsl(0, 0%, 40%);
+$gray45: hsl(0, 0%, 45%);
+$gray50: hsl(0, 0%, 50%);
+$gray55: hsl(0, 0%, 55%);
+$gray60: hsl(0, 0%, 60%);
+$gray65: hsl(0, 0%, 65%);
+$gray70: hsl(0, 0%, 70%);
+$gray75: hsl(0, 0%, 75%);
+$gray70: hsl(0, 0%, 80%);
+$gray85: hsl(0, 0%, 85%);
+$gray90: hsl(0, 0%, 90%);
+$gray95: hsl(0, 0%, 95%);
+$white: hsl(0, 0%, 100%);
+$yellow: hsl(60, 100%, 50%);
+
+$color-background-screen: $gray95;
+$color-text-screen: $gray70;
+$color-screen-reader-box-shadow: hsla(0, 0%, 0%, 0.6);
+$color-background-body: $gray95;
+$color-text-main: $gray20;
+$color-background-hr: $gray55;
+$color-border-abbr: $gray35;

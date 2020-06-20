@@ -1,0 +1,37 @@
+.custom-reports {
+	padding-top: rem(65);
+
+	.button{
+		&.loading {
+			padding-right: rem(30);
+
+			&::after {
+				position: relative;
+				top: rem(5);
+				left: rem(20);
+				box-sizing: border-box;
+				display: inline-block;
+				width: rem(20);
+				height: rem(20);
+				margin-top: rem(-10);
+				margin-left: rem(-10);
+				content: '';
+				border: rem(1) solid #CCCCCC;
+				border-top-color: #0071a1;
+				border-radius: 50%;
+				animation: spinner .6s linear infinite;
+			}
+		}
+	}
+
+	@keyframes spinner {
+		to {transform: rotate(360deg);}
+	}
+
+	hr {
+		height: auto;
+		color: transparent;
+		background-color: transparent;
+		margin-bottom: 3rem;
+	}
+}

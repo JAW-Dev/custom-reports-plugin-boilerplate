@@ -1,0 +1,22 @@
+@charset "UTF-8";
+// ========================================
+// Style Placeholder Data
+// ========================================
+
+@mixin placeholder {
+  ::-webkit-input-placeholder {
+    @content;
+  }
+
+  ::-moz-placeholder {
+    @content;
+  }
+
+  :-moz-placeholder {
+    @content;
+  }
+
+  :-ms-input-placeholder {
+    @content;
+  }
+}

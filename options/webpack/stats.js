@@ -1,0 +1,18 @@
+module.exports = {
+	cached: false,
+	cachedAssets: false,
+	children: false,
+	chunks: false,
+	chunkModules: false,
+	chunkOrigins: false,
+	colors: true,
+	entrypoints: false,
+	hash: false,
+	modules: false,
+	publicPath: false,
+	reasons: false,
+	timings: false,
+	usedExports: false,
+	version: false,
+	warnings: false,
+}

@@ -1,0 +1,9 @@
+@charset "UTF-8";
+// ========================================
+// Fomt Smoothing
+// ========================================
+
+@mixin font-smoothing {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+}

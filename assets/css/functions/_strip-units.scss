@@ -1,0 +1,8 @@
+@charset "UTF-8";
+// ========================================
+// Strip Units
+// ========================================
+
+@function strip-units($value) {
+	@return ($value / ($value * 0 + 1));
+}

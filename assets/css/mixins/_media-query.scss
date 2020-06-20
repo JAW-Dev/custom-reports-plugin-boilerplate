@@ -1,0 +1,22 @@
+@charset "UTF-8";
+// ========================================
+// Media Query
+// ========================================
+
+@mixin media($breakpoint, $minmax: min) {
+  @if map-has-key($breakpoints, $breakpoint) {
+		$breakpoint-value: map-get($breakpoints, $breakpoint);
+
+		@if $minmax == min {
+			@media (min-width: $breakpoint-value) {
+				@content;
+			}
+		}	@else if $minmax == max {
+			@media (min-width: $breakpoint-value) {
+				@content;
+			}
+		}
+  } @else {
+    @warn 'Invalid breakpoint: #{$breakpoint}.';
+  }
+}

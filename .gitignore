@@ -1,0 +1,25 @@
+# Directories
+/node_modules/
+/dist/
+/.vscode/
+
+# Sytem Files
+.DS_Store
+
+# env files
+.env*
+
+# Log files
+*.log
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+
+# Lock files
+*.lock

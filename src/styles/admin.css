@@ -1,0 +1,42 @@
+/*! Keep this comment Admin Styles*/
+/* purgecss start ignore */
+/* purgecss end ignore */
+.custom-reports {
+  padding-top: 4.0625rem; }
+  .custom-reports .button.loading {
+    padding-right: 1.875rem; }
+    .custom-reports .button.loading::after {
+      position: relative;
+      top: 0.3125rem;
+      left: 1.25rem;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      display: inline-block;
+      width: 1.25rem;
+      height: 1.25rem;
+      margin-top: -0.625rem;
+      margin-left: -0.625rem;
+      content: '';
+      border: 0.0625rem solid #CCCCCC;
+      border-top-color: #0071a1;
+      border-radius: 50%;
+      -webkit-animation: spinner .6s linear infinite;
+              animation: spinner .6s linear infinite; }
+
+@-webkit-keyframes spinner {
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+
+@keyframes spinner {
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+  .custom-reports hr {
+    height: auto;
+    color: transparent;
+    background-color: transparent;
+    margin-bottom: 3rem; }
+
+
+/*# sourceMappingURL=admin.css.map*/
